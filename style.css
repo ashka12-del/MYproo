@@ -1,0 +1,13 @@
+.front-page {
+    -fx-background-image: url("bg.jpg");
+    -fx-background-size: cover;
+}
+.login-page {
+    -fx-background-image: url("1.png");
+    -fx-background-size: cover;
+}
+
+.sign-page {
+    -fx-background-image: url("2.png");
+    -fx-background-size: cover;
+}

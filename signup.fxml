@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="780.0" styleClass="sign-page" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.anactual_javafx.SignupController">
+
+    <children>
+        <!-- Username -->
+        <Label layoutX="192.0" layoutY="127.0" text="Username:">
+            <font><Font size="16.0" /></font>
+        </Label>
+        <TextField fx:id="txtUsername" layoutX="186.0" layoutY="153.0" prefHeight="30.0" prefWidth="336.0" />
+
+        <!-- Role -->
+        <Label layoutX="186.0" layoutY="193.0" text="Choose your role:">
+            <font><Font size="16.0" /></font>
+        </Label>
+        <ComboBox fx:id="cmbRole" editable="true" layoutX="186.0" layoutY="225.0" prefHeight="30.0" prefWidth="336.0" promptText="Student / Admin / Shopkeeper / Doctor" />
+      <Label layoutX="188.0" layoutY="267.0" prefHeight="26.0" prefWidth="84.0" text="Password:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtUsername1" layoutX="186.0" layoutY="293.0" prefHeight="30.0" prefWidth="344.0" />
+        <Button fx:id="btnRegister"
+                onAction="#handleRegister"
+                layoutX="354.0" layoutY="334.0"
+                mnemonicParsing="false"
+                text="Register"/>
+    </children>
+</AnchorPane>
